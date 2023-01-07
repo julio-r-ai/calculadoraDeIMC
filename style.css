@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: radial-gradient(circle at -11.24% 85.36%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form{
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    background-color:#dcc586;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 2px 2px 7px 2px rgba(31, 30, 30, 0.295);
+    gap: 20px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    background-image: radial-gradient(circle at -11.24% 85.36%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+    border-radius: 8px;
+}
+
+button:hover{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    background-image: radial-gradient(circle at -11.24% 85.36%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px 2px #fa741e;
+} 
+
+.peso, .altura, #botao{
+    margin-bottom: 30px;
+    
+}
+
+.resultado{
+    width: 100%;
+    max-width: 450px;
+    height: 180px;
+    background-color:#dcc586;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 2px 2px 7px 2px rgba(31, 30, 30, 0.295);
+    gap: 20px;
+}

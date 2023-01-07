@@ -8,20 +8,20 @@ const calcular = () =>{
         let classificacao = '';
         
         if(imc < 18.5){
-            classificacao = 'Abaixo do peso'
+            classificacao = '(Abaixo do peso)'
         }else if(imc < 25){
-            classificacao = 'Peso normal'
+            classificacao = '(Peso normal)'
         }else if(imc < 30){
-            classificacao = 'Acima do peso'
+            classificacao = '(Acima do peso)'
         }else if(imc < 35){
-            classificacao = 'Obesidade grau I'
+            classificacao = '(Obesidade grau I)'
         }else if(imc < 41){
-            classificacao = 'Obesidade Grau II'
+            classificacao = '(Obesidade Grau II)'
         }else{
-            classificacao = 'Obesidade Grau III'
+            classificacao = '(Obesidade Grau III)'
         }
 
-        resultado.innerHTML = 'IMC: ' +  `${imc} (${classificacao})`
+        resultado.innerHTML = imc + '' + classificacao
     }else{
         resultado.innerHTML = 'Preencha os campos.'
     }
